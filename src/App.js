@@ -11,27 +11,27 @@ import Contact from "./pages/Contact";
 function App() {
   return (
 
-	<HashRouter basename="/">
     <div className="App">
 		    <Header />
+	<HashRouter basename="/">
 		   		
 
-		   		  <Route exact path = "/" component={About}/>
+		   		  <Route exact path = "/" component={About} />
 		   		
 
-		          <Route path="/about" component={About}/>
+		          <Route path="/about" component={About} />
 		            
 		          
-		          <Route path="/projects" component={Projects}/>
+		          <Route path="/projects" component={Projects} />
 		            
 		          
-		          <Route path="/contact" component={Contact}>
+		          <Route path="/contact" component={Contact} />
 		          
 		          
 		        
+	</HashRouter>
 		    <Footer />
     </div>
-	</HashRouter>
   );
 }
 
