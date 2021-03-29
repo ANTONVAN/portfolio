@@ -11,8 +11,8 @@ import Contact from "./pages/Contact";
 function App() {
   return (
 
+	<HashRouter basename="/">
     <div className="App">
-	    <HashRouter basename="/">
 		    <Header />
 		   		
 
@@ -30,8 +30,8 @@ function App() {
 		          
 		        
 		    <Footer />
-	    </HashRouter>
     </div>
+	</HashRouter>
   );
 }
 
