@@ -15,18 +15,19 @@ function App() {
 	    <HashRouter basename="/">
 		    <Header />
 		   		<Switch>
-		   		  <Route exact path = "/">
-		   		  	<About />
-		   		  </Route>
-		          <Route path="/about">
-		            <About />
-		          </Route>
-		          <Route path="/projects">
-		            <Projects />
-		          </Route>
-		          <Route path="/contact">
-		            <Contact />
-		          </Route>
+
+		   		  <Route exact path = "/" component={About}/>
+		   		
+		   		  	
+		          <Route path="/about" component={About}/>
+		            
+		          
+		          <Route path="/projects" component={Projects}/>
+		            
+		          
+		          <Route path="/contact" component={Contact}>
+		          
+		          
 		        </Switch>
 		    <Footer />
 	    </HashRouter>
