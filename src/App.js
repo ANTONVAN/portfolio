@@ -14,11 +14,11 @@ function App() {
     <div className="App">
 	    <HashRouter basename="/">
 		    <Header />
-		   		<Switch>
+		   		
 
 		   		  <Route exact path = "/" component={About}/>
 		   		
-		   		  	
+
 		          <Route path="/about" component={About}/>
 		            
 		          
@@ -28,7 +28,7 @@ function App() {
 		          <Route path="/contact" component={Contact}>
 		          
 		          
-		        </Switch>
+		        
 		    <Footer />
 	    </HashRouter>
     </div>
