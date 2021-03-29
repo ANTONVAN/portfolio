@@ -15,13 +15,13 @@ function App() {
 	    <Router>
 		    <Header />
 		   		<Switch>
-		          <Route exact path={["/portfolio", "/about"]}>
+		          <Route exact path={["/https://antonvan.github.io/portfolio/", "/about"]}>
 		            <About />
 		          </Route>
-		          <Route exact path={["/portfolio","/projects"]}>
+		          <Route exact path={["/https://antonvan.github.io/portfolio/","/projects"]}>
 		            <Projects />
 		          </Route>
-		          <Route exact path={["/portfolio", "/contact"]}>
+		          <Route exact path={["/https://antonvan.github.io/portfolio/", "/contact"]}>
 		            <Contact />
 		          </Route>
 		        </Switch>
